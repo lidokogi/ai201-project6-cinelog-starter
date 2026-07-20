@@ -67,3 +67,5 @@ curl -X POST http://127.0.0.1:5000/watchlist/<user_id>/add \
 5. Try adding the same film again — should get `AlreadyInWatchlistError`, not a duplicate
 6. Try a fake `film_id` — should get `FilmNotFoundError`
 7. Run `pytest tests/ -v` to confirm everything passes
+
+![alt text](image.png)
